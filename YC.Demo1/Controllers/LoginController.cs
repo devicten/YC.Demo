@@ -6,7 +6,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using YC.Demo1.Configs;
-using YC.Demo1.Helpers;
+using YC.Demo1.Models;
+using YC.Demo1.Interface;
 using YC.Demo1.Models;
 
 namespace YC.Demo1.Controllers
@@ -15,24 +16,32 @@ namespace YC.Demo1.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        private IConfiguration _config;
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly IConfiguration _config;
+        private readonly ILogger<LoginController> _logger;
+        private readonly IUserRepository _user;
 
-        public LoginController(ILogger<WeatherForecastController> logger, IConfiguration configuratio)
+        public LoginController(
+            ILogger<LoginController> logger,
+            IConfiguration configuratio,
+            IUserRepository user)
         {
             _logger = logger;
             _config = configuratio;
+            _user = user;
         }
 
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult Post([FromBody]Login login) 
+        public async Task<IActionResult> Post([FromBody]Login login) 
         {
+            var ip = Request.HttpContext.Connection.RemoteIpAddress;
             //if (ValidateUser(login))
-            if (login.UserName.Equals("abcd"))
+            (bool IsSuccess, Models.User data) resp = await _user.CheckAccount(login);
+            if (resp.IsSuccess == true)
             {
+                _logger.LogCritical(@$"Login Success.{ip}");
                 var jwtIssuer = _config.GetSection("Jwt:Issuer").Get<string>();
-                var jwtKey = _config.GetSection("Jwt:Key").Get<string>();
+                //var jwtKey = _config.GetSection("Jwt:Key").Get<string>();
                 var jwtSignKey = _config.GetSection("Jwt:SignKey").Get<string>();
                 var tokenDescriptor = new SecurityTokenDescriptor
                 {
@@ -50,6 +59,7 @@ namespace YC.Demo1.Controllers
             }
             else
             {
+                _logger.LogCritical(@$"Login Failed.{ip}");
                 return BadRequest();
             }
         }

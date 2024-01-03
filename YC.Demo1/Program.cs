@@ -4,21 +4,26 @@ using System.Security.Claims;
 using System.Text;
 using YC.Demo1.Configs;
 using YC.Demo1.Helpers;
+using YC.Demo1.Interface;
+using YC.Demo1.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Logging.AddLog4Net("Configs/log4net.Config");
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddSingleton<DBHelper>();
 // Add services to the container.
 builder.Services.AddControllers().AddNewtonsoftJson();
-builder.Services.AddControllers();
+//builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Jwt configuration starts here
 builder.Services.AddSingleton<JwtHelpers>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 var jwtIssuer = builder.Configuration.GetSection("Jwt:Issuer").Get<string>();
 var jwtKey = builder.Configuration.GetSection("Jwt:Key").Get<string>();
 var jwtSignKey = builder.Configuration.GetSection("Jwt:SignKey").Get<string>();

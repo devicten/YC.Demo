@@ -15,6 +15,7 @@
     using System.Text;
     using System.Threading;
     using System.Xml.Serialization;
+    using YC.Demo1.Models;
 
 
     /// <summary>擴充工具</summary>

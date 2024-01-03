@@ -5,6 +5,7 @@
     /// </summary>
     public static class LSYS
     {
+        public const string SQLSTRING = "Data Source=localhost;Initial Catalog=pubs; Integrated Security=false;user id=sa;password=123456";
         /// <summary>全域設定檔</summary>
         public static dynamic Config = YC.Demo1.Configs.CFG.Instance.xml;
         /// <summary>>全域安全物件</summary>
