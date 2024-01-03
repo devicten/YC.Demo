@@ -5,11 +5,14 @@ if (typeof SOIC.PAGE !== 'object')
 
 
 SOIC.PAGE.EVENT.BTNModalCreate = function (obj) {
+    SOIC.PAGE.STATE = 2;
     $("#MD_TITLE").text("Create New Sales");
 
     $("#ModalData .modal-body-1").show();
     $("#ModalData .modal-body-2").hide();
 
+    $('#ddlStor').prop('disabled', false);
+    $('#txtOrdNum').attr('disabled', false);
     $("#ddlPubInfo > option:selected").prop("selected", false);
     $("#ddlStor > option:selected").prop("selected", false);
     $("#txtOrdNum").val('');
@@ -23,6 +26,7 @@ SOIC.PAGE.EVENT.BTNModalCreate = function (obj) {
 }
 
 SOIC.PAGE.EVENT.BTNModalModify = function (obj) {
+    SOIC.PAGE.STATE = 3;
     $("#MD_TITLE").text("Modify Sales");
 
     $("#ModalData .modal-body-1").show();
@@ -31,8 +35,10 @@ SOIC.PAGE.EVENT.BTNModalModify = function (obj) {
     var k = $(obj).attr('data-k');
     var row = SOIC.PAGE.DATA.listSales[k];
 
-    $(`#ddlPubInfo > option[value="${row.pub_id}"]`).prop("selected", false);
-    $(`#ddlStor > option[value="${row.stor_id}"]`).prop("selected", false);
+    $('#ddlStor').prop('disabled', 'disabled');
+    $('#txtOrdNum').attr('disabled', 'disabled');
+    $(`#ddlPubInfo > option[value="${row.pub_id}"]`).prop("selected", true);
+    $(`#ddlStor > option[value="${row.stor_id}"]`).prop("selected", true);
     $("#txtOrdNum").val(row.ord_num);
     $("#txtOrdDate").val(row.ord_date);
     $("#txtQty").val(row.qty);
@@ -44,6 +50,7 @@ SOIC.PAGE.EVENT.BTNModalModify = function (obj) {
 }
 
 SOIC.PAGE.EVENT.BTNModalDelete = function (obj) {
+    SOIC.PAGE.STATE = 4;
     $("#MD_TITLE").text("Delete Sales");
     $("#ModalData .modal-body-1").hide();
     $("#ModalData .modal-body-2").show();
@@ -58,8 +65,95 @@ SOIC.PAGE.EVENT.BTNModalDelete = function (obj) {
     return false;
 }
 
-SOIC.PAGE.Read = function () {
+SOIC.PAGE.EVENT.BTNModalSubmit = function (obj) {
+    $('#ModalData').modal('hide');
+    if (SOIC.PAGE.STATE === 2)
+        return SOIC.PAGE.CreateOrModify();
+    else if (SOIC.PAGE.STATE === 3)
+        return SOIC.PAGE.CreateOrModify();
+    else if (SOIC.PAGE.STATE === 4)
+        return SOIC.PAGE.Delete();
+    else
+        return false;
+}
+
+SOIC.PAGE.Delete = function () {
     if (SOIC.PAGE.STATE === 1) {
+        return;
+    }
+    SOIC.PAGE.STATE = 1;
+    SOIC.PAGE.PANEL.Loading.Show();
+
+    var deldata = {
+        stor_id: $("#ddlStor > option:selected").val(),
+        ord_num: $("#txtOrdNum").val()
+    }
+
+    fetch(_API_SALES_, {
+        method: 'DELETE',
+        body: JSON.stringify(deldata),
+        headers: {
+            'Accept': 'application/json; charset=utf-8',
+            'Content-Type': 'application/json;charset=UTF-8'
+        }
+    })
+        .then(res => res.json())
+        .then(response => {
+            SOIC.PAGE.STATE = 0;
+            if (response.code !== 200) {
+                SOIC.PAGE.PANEL.Error.Show(response.message);
+                return;
+            }
+            SOIC.PAGE.Read();
+        })
+        .catch(error => {
+            SOIC.PAGE.STATE = 0;
+            SOIC.PAGE.PANEL.Error.Show('Action Sales Delete Error', error);
+        });
+    return false;
+}
+SOIC.PAGE.CreateOrModify = function () {
+    if (SOIC.PAGE.STATE === 1) {
+        return;
+    }
+    var STATE = SOIC.PAGE.STATE;
+    SOIC.PAGE.STATE = 1;
+    SOIC.PAGE.PANEL.Loading.Show();
+
+    var putdata = {
+        title_id: $("#ddlPubInfo > option:selected").val(),
+        stor_id: $("#ddlStor > option:selected").val(),
+        ord_num: $("#txtOrdNum").val(),
+        ord_date: $("#txtOrdDate").val(),
+        qty: $("#txtQty").val(),
+        payterms: $("#txtPayTerms").val()
+    }
+
+    fetch(_API_SALES_, {
+        method: STATE === 2 ? 'PUT' : 'PATCH',
+        body: JSON.stringify(putdata),
+        headers: {
+            'Accept': 'application/json; charset=utf-8',
+            'Content-Type': 'application/json;charset=UTF-8'
+        }
+    })
+        .then(res => res.json())
+        .then(response => {
+            SOIC.PAGE.STATE = 0;
+            if (response.code !== 200) {
+                SOIC.PAGE.PANEL.Error.Show(response.message);
+                return;
+            }
+            SOIC.PAGE.Read();
+        })
+        .catch(error => {
+            SOIC.PAGE.STATE = 0;
+            SOIC.PAGE.PANEL.Error.Show('Action Sales CreateOrModify Error', error);
+        });
+    return false;
+}
+SOIC.PAGE.Read = function () {
+    if (SOIC.PAGE.STATE !== 0) {
         return;
     }
     SOIC.PAGE.STATE = 1;
@@ -76,6 +170,10 @@ SOIC.PAGE.Read = function () {
     .then(res => res.json())
     .then(response => {
         SOIC.PAGE.STATE = 0;
+        if (response.code !== 200) {
+            SOIC.PAGE.PANEL.Error.Show(response.message);
+            return;
+        }
         SOIC.PAGE.DATA = response.result;
 
         var html = '';
@@ -116,8 +214,7 @@ SOIC.PAGE.Read = function () {
         html = '';
         for (var k = 0; k < SOIC.PAGE.DATA.listTitles.length; k++) {
             var row = SOIC.PAGE.DATA.listTitles[k];
-
-            html += `<option value="${row.pub_id}">${row.title}</option>`;
+            html += `<option value="${row.title_id}">${row.title}</option>`;
         }
         $("#ddlPubInfo").html(html);
 
@@ -140,5 +237,6 @@ SOIC.PAGE.Read = function () {
 SOIC.PAGE.INIT = function () {
     $("body").removeAttr('class');
     SOIC.PAGE.PANEL.Main.UpdateClass('');
+    SOIC.PAGE.STATE = 0;
     SOIC.PAGE.Read();
 }

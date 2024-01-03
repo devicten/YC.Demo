@@ -1,0 +1,151 @@
+2024-01-04 00:25:52,371 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-04 00:25:52,385 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-04 00:25:52,396 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-04 00:25:52,399 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-04 00:25:52,402 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-04 00:26:06,398 [21] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-04 00:29:26,207 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-04 00:29:26,227 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-04 00:29:26,241 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-04 00:29:26,243 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-04 00:29:26,252 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-04 00:29:36,732 [19] INFO  YC.Demo1.Controllers.LoginController - Login Success.127.0.0.1
+2024-01-04 00:30:23,447 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-04 00:30:23,465 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-04 00:30:23,483 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-04 00:30:23,488 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-04 00:30:23,492 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-04 00:30:43,809 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-04 00:30:43,826 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-04 00:30:43,837 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-04 00:30:43,840 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-04 00:30:43,843 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-04 00:32:05,181 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-04 00:32:05,198 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-04 00:32:05,213 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-04 00:32:05,220 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-04 00:32:05,226 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-04 00:39:41,893 [91] ERROR YC.Demo1.Controllers.SalesController - Put data crash.
+System.Data.SqlClient.SqlException (0x80131904): INSERT 陳述式與 FOREIGN KEY 條件約束 "FK__sales__title_id__4BAC3F29" 衝突。衝突發生在資料庫 "pubs"，資料表 "dbo.titles", column 'title_id'。
+陳述式已經結束。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteMultiImplAsync(IDbConnection cnn, CommandDefinition command, IEnumerable multiExec) in /_/Dapper/SqlMapper.Async.cs:line 640
+   at YC.Demo1.Models.SalesRepository.PutSales(PutSales data)
+   at YC.Demo1.Controllers.SalesController.Put(PutSales data)
+ClientConnectionId:f2f495fc-64f2-4b85-b7c9-0cb89a30f9c1
+Error Number:547,State:0,Class:16
+2024-01-04 00:42:33,161 [60] ERROR YC.Demo1.Controllers.SalesController - Put data crash.
+System.Data.SqlClient.SqlException (0x80131904): INSERT 陳述式與 FOREIGN KEY 條件約束 "FK__sales__title_id__4BAC3F29" 衝突。衝突發生在資料庫 "pubs"，資料表 "dbo.titles", column 'title_id'。
+陳述式已經結束。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteMultiImplAsync(IDbConnection cnn, CommandDefinition command, IEnumerable multiExec) in /_/Dapper/SqlMapper.Async.cs:line 640
+   at YC.Demo1.Models.SalesRepository.PutSales(PutSales data)
+   at YC.Demo1.Controllers.SalesController.Put(PutSales data)
+ClientConnectionId:f2f495fc-64f2-4b85-b7c9-0cb89a30f9c1
+Error Number:547,State:0,Class:16
+2024-01-04 00:44:06,443 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-04 00:44:06,461 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-04 00:44:06,470 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-04 00:44:06,473 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-04 00:44:06,475 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-04 00:45:16,619 [28] ERROR YC.Demo1.Controllers.SalesController - Put data crash.
+System.Data.SqlClient.SqlException (0x80131904): INSERT 陳述式與 FOREIGN KEY 條件約束 "FK__sales__title_id__4BAC3F29" 衝突。衝突發生在資料庫 "pubs"，資料表 "dbo.titles", column 'title_id'。
+陳述式已經結束。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteMultiImplAsync(IDbConnection cnn, CommandDefinition command, IEnumerable multiExec) in /_/Dapper/SqlMapper.Async.cs:line 640
+   at YC.Demo1.Models.SalesRepository.PutSales(PutSales data) in C:\DEV\YC.Demo\YC.Demo1\Models\SalesRepository.cs:line 80
+   at YC.Demo1.Controllers.SalesController.Put(PutSales data) in C:\DEV\YC.Demo\YC.Demo1\Controllers\SalesController.cs:line 55
+ClientConnectionId:8a689b5f-2f84-4acb-b740-27ad3373b76c
+Error Number:547,State:0,Class:16
+2024-01-04 00:55:51,003 [38] ERROR YC.Demo1.Controllers.SalesController - Put data crash.
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'UPKCL_sales'。無法在物件 'dbo.sales' 中插入重複的索引鍵。重複的索引鍵值是 (6380, AA0001, BU1032)。
+陳述式已經結束。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteMultiImplAsync(IDbConnection cnn, CommandDefinition command, IEnumerable multiExec) in /_/Dapper/SqlMapper.Async.cs:line 640
+   at YC.Demo1.Models.SalesRepository.PutSales(PutSales data)
+   at YC.Demo1.Controllers.SalesController.Patch(PutSales data)
+ClientConnectionId:c6f42848-b2fb-43f7-be7d-84c890092cc7
+Error Number:2627,State:1,Class:14
+2024-01-04 00:57:03,657 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-04 00:57:03,671 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-04 00:57:03,678 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-04 00:57:03,681 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-04 00:57:03,683 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-04 00:57:25,026 [20] ERROR YC.Demo1.Controllers.SalesController - Put data crash.
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'UPKCL_sales'。無法在物件 'dbo.sales' 中插入重複的索引鍵。重複的索引鍵值是 (6380, AA0001, BU1032)。
+陳述式已經結束。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteMultiImplAsync(IDbConnection cnn, CommandDefinition command, IEnumerable multiExec) in /_/Dapper/SqlMapper.Async.cs:line 640
+   at YC.Demo1.Models.SalesRepository.PutSales(PutSales data) in C:\DEV\YC.Demo\YC.Demo1\Models\SalesRepository.cs:line 81
+   at YC.Demo1.Controllers.SalesController.Patch(PutSales data) in C:\DEV\YC.Demo\YC.Demo1\Controllers\SalesController.cs:line 78
+ClientConnectionId:14c4a1c4-3e59-402b-82cb-838329a193cf
+Error Number:2627,State:1,Class:14
+2024-01-04 00:58:07,820 [7] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-04 00:58:35,419 [8] ERROR YC.Demo1.Controllers.SalesController - Patch data crash.
+System.Data.SqlClient.SqlException (0x80131904): 違反 PRIMARY KEY 條件約束 'UPKCL_sales'。無法在物件 'dbo.sales' 中插入重複的索引鍵。重複的索引鍵值是 (6380, AA0001, BU1032)。
+陳述式已經結束。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteMultiImplAsync(IDbConnection cnn, CommandDefinition command, IEnumerable multiExec) in /_/Dapper/SqlMapper.Async.cs:line 640
+   at YC.Demo1.Models.SalesRepository.PutSales(PutSales data)
+   at YC.Demo1.Controllers.SalesController.Patch(PutSales data)
+ClientConnectionId:14c4a1c4-3e59-402b-82cb-838329a193cf
+Error Number:2627,State:1,Class:14
+2024-01-04 01:01:50,199 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-04 01:01:50,211 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-04 01:01:50,219 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-04 01:01:50,221 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-04 01:01:50,223 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-04 01:09:37,983 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-04 01:09:38,000 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-04 01:09:38,010 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-04 01:09:38,012 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-04 01:09:38,014 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-04 01:09:51,401 [19] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1

@@ -7,6 +7,9 @@ namespace YC.Demo1.Models
     public interface ISalesRepository
     {
         public Task<(bool IsSuccess, List<Sales> ListSales, List<Stores> ListStores, List<Titles> ListTitles)> GetSales();
+        public Task<(bool IsSuccess, int NumOfRowsAffected)> PutSales(PutSales data);
+        public Task<(bool IsSuccess, int NumOfRowsAffected)> PatchSales(PutSales data);
+        public Task<(bool IsSuccess, int NumOfRowsAffected)> DeleteSales(DeleteSales data);
     }
     public class SalesRepository : ISalesRepository
     {
@@ -70,6 +73,59 @@ namespace YC.Demo1.Models
                 var ListStores = results.Read<Stores>().ToList();
                 var ListTitles = results.Read<Titles>().ToList();
                 return (IsSuccess: true, ListSales: ListSales, ListStores: ListStores, ListTitles: ListTitles);
+            }
+        }
+        public async Task<(bool IsSuccess, int NumOfRowsAffected)> PutSales(PutSales data)
+        {
+            using (var connection = _context.CreateConnection())
+            {
+                var NumOfRowsAffected = await connection.ExecuteAsync(
+                    @"INSERT INTO [dbo].[sales] ([stor_id] ,[ord_num] ,[ord_date] ,[qty] ,[payterms] ,[title_id]) VALUES  (@StorId ,@OrdNum ,@OrdDate ,@Qty ,@Payterms ,@TitleId)",
+                    new List<object>() {
+                        new { 
+                            StorId = data.stor_id,
+                            OrdNum = data.ord_num,
+                            OrdDate = data.ord_date,
+                            Qty = data.qty,
+                            Payterms = data.payterms,
+                            TitleId = data.title_id
+                        }
+                    });
+                return (IsSuccess: true, NumOfRowsAffected: NumOfRowsAffected);
+            }
+        }
+        public async Task<(bool IsSuccess, int NumOfRowsAffected)> PatchSales(PutSales data)
+        {
+            using (var connection = _context.CreateConnection())
+            {
+                var NumOfRowsAffected = await connection.ExecuteAsync(
+                    @"UPDATE [dbo].[sales] SET [ord_date] = @OrdDate, [qty] = @Qty, [payterms] = @Payterms ,[title_id] = @TitleId WHERE [stor_id] = @StorId AND [ord_num] = @OrdNum",
+                    new List<object>() {
+                        new {
+                            StorId = data.stor_id,
+                            OrdNum = data.ord_num,
+                            OrdDate = data.ord_date,
+                            Qty = data.qty,
+                            Payterms = data.payterms,
+                            TitleId = data.title_id
+                        }
+                    });
+                return (IsSuccess: true, NumOfRowsAffected: NumOfRowsAffected);
+            }
+        }
+        public async Task<(bool IsSuccess, int NumOfRowsAffected)> DeleteSales(DeleteSales data)
+        {
+            using (var connection = _context.CreateConnection())
+            {
+                var NumOfRowsAffected = await connection.ExecuteAsync(
+                    @"DELETE [dbo].[sales] WHERE [stor_id] = @StorId AND [ord_num] = @OrdNum",
+                    new List<object>() {
+                        new {
+                            StorId = data.stor_id,
+                            OrdNum = data.ord_num
+                        }
+                    });
+                return (IsSuccess: true, NumOfRowsAffected: NumOfRowsAffected);
             }
         }
     }
