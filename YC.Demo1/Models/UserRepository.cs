@@ -1,10 +1,13 @@
 ﻿using Dapper;
 using System.Data;
 using YC.Demo1.Helpers;
-using YC.Demo1.Interface;
 
 namespace YC.Demo1.Models
 {
+    public interface IUserRepository
+    {
+        public Task<(bool IsSuccess, User data)> CheckAccount(Login login);
+    }
     public class UserRepository : IUserRepository
     {
         private readonly DBHelper _context;

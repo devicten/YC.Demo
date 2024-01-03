@@ -1,0 +1,25 @@
+﻿@page
+@model YC.Demo1.Views.PageLogin.IndexModel
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+@section BLOCK_CSS { <link rel="stylesheet" href="@Url.Content($"~/assets/PageLogin.css?t={DateTime.Now.Ticks}")"> }
+
+@section BLOCK_JS { <script src="@Url.Content($"~/assets/PageLogin.js?t={DateTime.Now.Ticks}")"></script> }
+
+<form>
+  <h1 class="h3 mb-3 fw-normal">YC.DEMO Login</h1>
+
+  <div class="form-floating">
+    <input type="text" class="form-control" id="data_account" value="user01">
+    <label for="data_account">Account</label>
+  </div>
+  <div class="form-floating">
+    <input type="password" class="form-control" id="data_password" value="123456">
+    <label for="data_password">Password</label>
+  </div>
+
+  <div class="btn btn-primary w-100 py-2" onclick="return SOIC.PAGE.EVENT.BTNLogin_OnClick();">Sign in</div>
+  <p class="mt-5 mb-3 text-body-secondary">&copy; 2024</p>
+</form>

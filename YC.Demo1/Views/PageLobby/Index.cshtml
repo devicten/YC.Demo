@@ -1,0 +1,84 @@
+﻿@page
+@model YC.Demo1.Views.PageLobby.IndexModel
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+@section BLOCK_CSS { <link rel="stylesheet" href="@Url.Content($"~/assets/PageLobby.css?t={DateTime.Now.Ticks}")"> }
+
+@section BLOCK_JS { <script src="@Url.Content($"~/assets/PageLobby.js?t={DateTime.Now.Ticks}")"></script> }
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">YC.DEMO Sales</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><div class="btn btn-info" onclick="return SOIC.PAGE.EVENT.BTNModalCreate();">Create Sales </div></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="container marketing">
+    <table class="table" id="tbData">
+      <thead>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div><!-- /.container -->
+</main>
+
+<div class="modal fade" id="ModalData" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="MD_TITLE">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="modal-body-1">
+          <div class="form-group">
+            <label for="ddlPubInfo">pub_info</label>
+            <select class="form-control" id="ddlPubInfo"></select>
+          </div>
+          <div class="form-group">
+            <label for="ddlStor">Store</label>
+            <select class="form-control" id="ddlStor"></select>
+          </div>
+          <div class="form-group">
+            <label for="txtOrdNum">Order No.</label>
+            <input type="text" class="form-control" id="txtOrdNum" >
+          </div>
+          <div class="form-group">
+            <label for="txtOrdDate">Order Date</label>
+            <input type="date" class="form-control" id="txtOrdDate" />
+          </div>
+          <div class="form-group">
+            <label for="txtQty">Qty.</label>
+            <input type="number" class="form-control" id="txtQty" />
+          </div>
+          <div class="form-group">
+            <label for="txtPayTerms">Pay Terms</label>
+            <input type="text" class="form-control" id="txtPayTerms" >
+          </div>
+        </form>
+        <div class="modal-body-2">
+            <p class="modal-message"></p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="btnModalSubmit">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -7,8 +7,10 @@ using System.Security.Claims;
 using System.Text;
 using YC.Demo1.Configs;
 using YC.Demo1.Models;
-using YC.Demo1.Interface;
 using YC.Demo1.Models;
+using Microsoft.Net.Http.Headers;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace YC.Demo1.Controllers
 {
@@ -30,6 +32,7 @@ namespace YC.Demo1.Controllers
             _user = user;
         }
 
+
         [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]Login login) 
@@ -39,15 +42,16 @@ namespace YC.Demo1.Controllers
             (bool IsSuccess, Models.User data) resp = await _user.CheckAccount(login);
             if (resp.IsSuccess == true)
             {
-                _logger.LogCritical(@$"Login Success.{ip}");
+                _logger.LogInformation(@$"Login Success.{ip}");
                 var jwtIssuer = _config.GetSection("Jwt:Issuer").Get<string>();
                 //var jwtKey = _config.GetSection("Jwt:Key").Get<string>();
                 var jwtSignKey = _config.GetSection("Jwt:SignKey").Get<string>();
+                var c = new ClaimsIdentity(new Claim[] {
+                        new Claim(ClaimTypes.Role, Roles.Users)
+                    });
                 var tokenDescriptor = new SecurityTokenDescriptor
                 {
-                    Subject = new ClaimsIdentity(new Claim[] {
-                        new Claim(ClaimTypes.Role, Roles.Users)
-                    }),
+                    Subject = c,
                     Issuer = jwtIssuer,
                     Expires = DateTime.UtcNow.AddHours(1),
                     SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSignKey)), SecurityAlgorithms.HmacSha256Signature)
@@ -55,12 +59,12 @@ namespace YC.Demo1.Controllers
                 var tokenHandler = new JwtSecurityTokenHandler();
                 var securityToken = tokenHandler.CreateToken(tokenDescriptor);
                 var token = tokenHandler.WriteToken(securityToken);
-                return Ok(new { token });
+                return Ok(new { Code = 200, Message = "", Result = new { token, resp.data } });
             }
             else
             {
                 _logger.LogCritical(@$"Login Failed.{ip}");
-                return BadRequest();
+                return Ok(new { Code = 500, Message = "帳號或密碼錯誤", Result = new { } });
             }
         }
 

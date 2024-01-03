@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
+using System.Reflection;
 using System.Security.Claims;
 using System.Text;
 using YC.Demo1.Configs;
 using YC.Demo1.Helpers;
-using YC.Demo1.Interface;
 using YC.Demo1.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,14 +25,25 @@ builder.Services.AddSwaggerGen();
 //Jwt configuration starts here
 builder.Services.AddSingleton<JwtHelpers>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ISalesRepository, SalesRepository>();
 
 var jwtIssuer = builder.Configuration.GetSection("Jwt:Issuer").Get<string>();
 var jwtKey = builder.Configuration.GetSection("Jwt:Key").Get<string>();
 var jwtSignKey = builder.Configuration.GetSection("Jwt:SignKey").Get<string>();
+//builder.Services.AddAuthenticationCore();
 builder.Services
     .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
+        options.Events = new JwtBearerEvents
+        {
+            OnMessageReceived = context =>
+            {
+                if (context.Request.Cookies.ContainsKey("BearToken"))
+                    context.Token = context.Request.Cookies["BearToken"];
+                return Task.CompletedTask;
+            }
+        };
         // 當驗證失敗時，回應標頭會包含 WWW-Authenticate 標頭，這裡會顯示失敗的詳細錯誤原因
         options.IncludeErrorDetails = true; // 預設值為 true，有時會特別關閉
 
@@ -57,19 +70,14 @@ builder.Services
             // "1234567890123456" 應該從 IConfiguration 取得
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSignKey))
         };
-    });
 
-//builder.Services.AddAuthorization();
-builder.Services.AddAuthenticationCore();
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy(
-        Roles.Users,
-        policy => policy.RequireClaim(ClaimTypes.Role, Roles.Users)
-    );
-});
-builder.Services.AddAuthorizationPolicyEvaluator();
-//Jwt configuration ends here
+    })
+    .AddCookie(options =>
+    {
+        options.ExpireTimeSpan = TimeSpan.FromHours(1);
+        options.Cookie.Name = "user-session";
+        options.SlidingExpiration = true;
+    }); ;
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
@@ -81,8 +89,22 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
 
+var fileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "assets"));
+var requestPath = "/assets";
+// Enable displaying browser links.
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = fileProvider,
+    RequestPath = requestPath
+});
+app.UseDirectoryBrowser(new DirectoryBrowserOptions
+{
+    FileProvider = fileProvider,
+    RequestPath = requestPath
+});
+app.UseAuthentication();
+app.UseAuthorization();
 app.MapControllers().RequireAuthorization();
 
 

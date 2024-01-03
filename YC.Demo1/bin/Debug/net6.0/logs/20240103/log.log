@@ -102,3 +102,1354 @@ System.InvalidOperationException: The AuthorizationPolicy named: 'A_USERS' was n
 2024-01-03 13:01:17,590 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
 2024-01-03 13:01:35,114 [14] FATAL YC.Demo1.Controllers.LoginController - Login Failed.::1
 2024-01-03 13:01:41,067 [15] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:19:37,156 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 15:19:37,170 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 15:19:37,178 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 15:19:37,180 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 15:19:37,182 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 15:19:53,531 [8] FATAL YC.Demo1.Controllers.LoginController - Login Failed.::1
+2024-01-03 15:20:02,838 [5] FATAL YC.Demo1.Controllers.LoginController - Login Failed.::1
+2024-01-03 15:20:08,198 [5] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:21:03,930 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 15:21:03,947 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 15:21:03,961 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 15:21:03,965 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 15:21:03,969 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 15:26:40,575 [6] FATAL YC.Demo1.Controllers.LoginController - Login Failed.::1
+2024-01-03 15:28:50,828 [30] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:30:41,565 [22] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:30:55,907 [36] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:32:28,636 [22] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:34:49,843 [38] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:35:56,964 [40] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:37:53,895 [42] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:38:15,218 [44] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:41:02,407 [44] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:41:25,278 [35] FATAL YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 15:42:44,256 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 15:42:44,272 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 15:42:44,281 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 15:42:44,283 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 15:42:44,286 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 15:42:46,010 [15] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 16:10:16,513 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:10:16,525 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:10:16,534 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:10:16,536 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:10:16,539 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:10:18,403 [18] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - YC.Demo1.Controllers.LoginController.Get (YC.Demo1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 16:11:22,343 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:11:22,362 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:11:22,371 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:11:22,373 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:11:22,375 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:11:24,812 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - YC.Demo1.Controllers.LoginController.Get (YC.Demo1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 16:12:27,622 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:12:27,633 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:12:27,640 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:12:27,642 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:12:27,644 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:12:29,163 [18] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - YC.Demo1.Controllers.LoginController.Get (YC.Demo1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 16:13:55,351 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:13:55,364 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:13:55,374 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:13:55,377 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:13:55,380 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:13:56,553 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - YC.Demo1.Controllers.LoginController.Get (YC.Demo1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 16:14:38,287 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:14:38,299 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:14:38,309 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:14:38,311 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:14:38,313 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:14:39,547 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - YC.Demo1.Controllers.LoginController.Get (YC.Demo1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 16:15:18,448 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:15:18,462 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:15:18,469 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:15:18,471 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:15:18,473 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:21:05,051 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:21:05,067 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:21:05,077 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:21:05,079 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:21:05,081 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:21:28,144 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:21:28,154 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:21:28,161 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:21:28,163 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:21:28,165 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:21:38,345 [13] ERROR Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - The view 'Index' was not found. Searched locations: /Views/PageLogin/Index.cshtml, /Views/Shared/Index.cshtml
+2024-01-03 16:21:38,402 [13] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/PageLogin/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 16:21:49,974 [21] ERROR Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - The view 'Index' was not found. Searched locations: /Views/PageLogin/Index.cshtml, /Views/Shared/Index.cshtml
+2024-01-03 16:21:49,980 [21] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/PageLogin/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 16:25:02,013 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:25:02,025 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:25:02,037 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:25:02,039 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:25:02,041 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:25:18,198 [14] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 16:44:26,277 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:44:26,297 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:44:26,306 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:44:26,309 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:44:26,313 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:45:19,452 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:45:19,464 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:45:19,472 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:45:19,475 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:45:19,477 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:46:33,575 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:46:33,580 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:46:33,582 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:46:33,582 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:46:33,583 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:46:42,908 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:46:42,922 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:46:42,930 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:46:42,932 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:46:42,934 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:47:39,319 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:47:39,335 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:47:39,343 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:47:39,346 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:47:39,348 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:49:34,394 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:49:34,407 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:49:34,415 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:49:34,417 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:49:34,419 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:52:26,608 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:52:26,614 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:52:26,616 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:52:26,617 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:52:26,617 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:52:50,909 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:52:50,924 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:52:50,935 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:52:50,937 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:52:50,941 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 16:53:48,119 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 16:53:48,130 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 16:53:48,139 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 16:53:48,141 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 16:53:48,143 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:01:08,034 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:01:08,040 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:01:08,043 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:01:08,043 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:01:08,043 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:01:56,477 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:01:56,483 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:01:56,485 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:01:56,486 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:01:56,486 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:03:49,619 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:03:49,634 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:03:49,645 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:03:49,648 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:03:49,651 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:06:46,784 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:06:46,801 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:06:46,817 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:06:46,821 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:06:46,824 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:08:27,032 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:08:27,044 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:08:27,052 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:08:27,054 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:08:27,055 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:09:44,576 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:09:44,592 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:09:44,601 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:09:44,605 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:09:44,608 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:10:59,912 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:10:59,927 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:10:59,935 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:10:59,937 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:10:59,939 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:11:26,644 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:11:26,659 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:11:26,667 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:11:26,669 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:11:26,671 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:11:28,099 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The relative page path '~' can only be used while executing a Razor Page. Specify a root relative path with a leading '/' to generate a URL outside of a Razor Page. If you are using LinkGenerator then you must provide the current HttpContext to use relative pages.
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.CalculatePageName(ActionContext context, RouteValueDictionary ambientValues, String pageName)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.NormalizeRouteValuesForPage(ActionContext context, String page, String handler, RouteValueDictionary values, RouteValueDictionary ambientValues)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName, String pageHandler, Object values, String protocol, String host, String fragment)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName)
+   at AspNetCoreGeneratedDocument.Views__Layout.<ExecuteAsync>b__13_1() in C:\DEV\YC.Demo\YC.Demo1\Views\_Layout.cshtml:line 34
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 17:11:50,485 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The relative page path '~' can only be used while executing a Razor Page. Specify a root relative path with a leading '/' to generate a URL outside of a Razor Page. If you are using LinkGenerator then you must provide the current HttpContext to use relative pages.
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.CalculatePageName(ActionContext context, RouteValueDictionary ambientValues, String pageName)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.NormalizeRouteValuesForPage(ActionContext context, String page, String handler, RouteValueDictionary values, RouteValueDictionary ambientValues)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName, String pageHandler, Object values, String protocol, String host, String fragment)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName)
+   at AspNetCoreGeneratedDocument.Views__Layout.<ExecuteAsync>b__13_1() in C:\DEV\YC.Demo\YC.Demo1\Views\_Layout.cshtml:line 34
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 17:12:41,537 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:12:41,556 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:12:41,565 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:12:41,567 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:12:41,569 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:16:58,832 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:16:58,842 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:16:58,849 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:16:58,850 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:16:58,852 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:17:00,633 [13] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - YC.Demo1.Controllers.PageLobby.Index (YC.Demo1). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 17:17:32,182 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:17:32,199 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:17:32,209 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:17:32,213 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:17:32,215 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:17:32,738 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The relative page path 'Login' can only be used while executing a Razor Page. Specify a root relative path with a leading '/' to generate a URL outside of a Razor Page. If you are using LinkGenerator then you must provide the current HttpContext to use relative pages.
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.CalculatePageName(ActionContext context, RouteValueDictionary ambientValues, String pageName)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.NormalizeRouteValuesForPage(ActionContext context, String page, String handler, RouteValueDictionary values, RouteValueDictionary ambientValues)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName, String pageHandler, Object values, String protocol, String host, String fragment)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName, String pageHandler, Object values)
+   at AspNetCoreGeneratedDocument.Views__Layout.<ExecuteAsync>b__13_1() in C:\DEV\YC.Demo\YC.Demo1\Views\_Layout.cshtml:line 34
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 17:17:38,310 [19] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The relative page path 'Login' can only be used while executing a Razor Page. Specify a root relative path with a leading '/' to generate a URL outside of a Razor Page. If you are using LinkGenerator then you must provide the current HttpContext to use relative pages.
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.CalculatePageName(ActionContext context, RouteValueDictionary ambientValues, String pageName)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.NormalizeRouteValuesForPage(ActionContext context, String page, String handler, RouteValueDictionary values, RouteValueDictionary ambientValues)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName, String pageHandler, Object values, String protocol, String host, String fragment)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName, String pageHandler, Object values)
+   at AspNetCoreGeneratedDocument.Views__Layout.<ExecuteAsync>b__13_1() in C:\DEV\YC.Demo\YC.Demo1\Views\_Layout.cshtml:line 34
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 17:17:39,573 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The relative page path 'Login' can only be used while executing a Razor Page. Specify a root relative path with a leading '/' to generate a URL outside of a Razor Page. If you are using LinkGenerator then you must provide the current HttpContext to use relative pages.
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.CalculatePageName(ActionContext context, RouteValueDictionary ambientValues, String pageName)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.NormalizeRouteValuesForPage(ActionContext context, String page, String handler, RouteValueDictionary values, RouteValueDictionary ambientValues)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName, String pageHandler, Object values, String protocol, String host, String fragment)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName, String pageHandler, Object values)
+   at AspNetCoreGeneratedDocument.Views__Layout.<ExecuteAsync>b__13_1() in C:\DEV\YC.Demo\YC.Demo1\Views\_Layout.cshtml:line 34
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 17:18:06,811 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:18:06,829 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:18:06,840 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:18:06,842 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:18:06,844 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:18:08,654 [18] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The relative page path 'Login' can only be used while executing a Razor Page. Specify a root relative path with a leading '/' to generate a URL outside of a Razor Page. If you are using LinkGenerator then you must provide the current HttpContext to use relative pages.
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.CalculatePageName(ActionContext context, RouteValueDictionary ambientValues, String pageName)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.NormalizeRouteValuesForPage(ActionContext context, String page, String handler, RouteValueDictionary values, RouteValueDictionary ambientValues)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName, String pageHandler, Object values, String protocol, String host, String fragment)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName)
+   at AspNetCoreGeneratedDocument.Views__Layout.<ExecuteAsync>b__13_1() in C:\DEV\YC.Demo\YC.Demo1\Views\_Layout.cshtml:line 34
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 17:18:12,060 [18] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The relative page path 'Login' can only be used while executing a Razor Page. Specify a root relative path with a leading '/' to generate a URL outside of a Razor Page. If you are using LinkGenerator then you must provide the current HttpContext to use relative pages.
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.CalculatePageName(ActionContext context, RouteValueDictionary ambientValues, String pageName)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.NormalizeRouteValuesForPage(ActionContext context, String page, String handler, RouteValueDictionary values, RouteValueDictionary ambientValues)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName, String pageHandler, Object values, String protocol, String host, String fragment)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName)
+   at AspNetCoreGeneratedDocument.Views__Layout.<ExecuteAsync>b__13_1() in C:\DEV\YC.Demo\YC.Demo1\Views\_Layout.cshtml:line 34
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 17:18:12,886 [13] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The relative page path 'Login' can only be used while executing a Razor Page. Specify a root relative path with a leading '/' to generate a URL outside of a Razor Page. If you are using LinkGenerator then you must provide the current HttpContext to use relative pages.
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.CalculatePageName(ActionContext context, RouteValueDictionary ambientValues, String pageName)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.NormalizeRouteValuesForPage(ActionContext context, String page, String handler, RouteValueDictionary values, RouteValueDictionary ambientValues)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName, String pageHandler, Object values, String protocol, String host, String fragment)
+   at Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(IUrlHelper urlHelper, String pageName)
+   at AspNetCoreGeneratedDocument.Views__Layout.<ExecuteAsync>b__13_1() in C:\DEV\YC.Demo\YC.Demo1\Views\_Layout.cshtml:line 34
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 17:18:39,451 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:18:39,463 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:18:39,471 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:18:39,474 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:18:39,476 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:19:08,712 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:19:08,724 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:19:08,730 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:19:08,731 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:19:08,733 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:20:41,399 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:20:41,413 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:20:41,422 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:20:41,424 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:20:41,426 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:22:24,815 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:22:24,826 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:22:24,834 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:22:24,836 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:22:24,838 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:22:55,398 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:22:55,412 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:22:55,420 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:22:55,425 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:22:55,428 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:23:53,408 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:23:53,424 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:23:53,434 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:23:53,437 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:23:53,439 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:27:36,845 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:27:36,996 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:27:37,009 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:27:37,017 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:27:37,044 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:27:47,449 [21] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:30:57,818 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:30:57,829 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:30:57,835 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:30:57,837 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:30:57,838 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:31:06,546 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:31:06,557 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:31:06,574 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:31:06,581 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:31:06,583 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:32:17,999 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:32:18,010 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:32:18,016 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:32:18,018 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:32:18,020 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:32:58,696 [14] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:33:44,023 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:33:44,036 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:33:44,045 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:33:44,048 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:33:44,049 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:34:03,065 [23] FATAL YC.Demo1.Controllers.LoginController - Login Failed.127.0.0.1
+2024-01-03 17:36:28,732 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:36:28,744 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:36:28,751 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:36:28,753 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:36:28,755 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:36:43,200 [14] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:36:48,122 [17] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:37:02,446 [18] FATAL YC.Demo1.Controllers.LoginController - Login Failed.::1
+2024-01-03 17:37:20,665 [18] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:39:38,059 [42] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:39:50,340 [43] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:41:50,919 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:41:50,932 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:41:50,939 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:41:50,943 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:41:50,946 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:42:19,381 [21] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:44:35,197 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:44:35,209 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:44:35,218 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:44:35,220 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:44:35,223 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:45:37,571 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:45:37,590 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:45:37,605 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:45:37,609 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:45:37,612 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:46:43,819 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:46:43,836 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:46:43,844 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:46:43,846 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:46:43,850 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:47:09,784 [19] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:47:09,785 [16] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:48:12,113 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:48:12,124 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:48:12,131 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:48:12,133 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:48:12,135 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:48:36,431 [19] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:50:42,535 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:50:42,549 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:50:42,557 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:50:42,559 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:50:42,561 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:51:59,131 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:51:59,142 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:51:59,150 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:51:59,151 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:51:59,153 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:53:38,511 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:53:38,523 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:53:38,535 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:53:38,541 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:53:38,545 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:53:58,066 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:53:58,079 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:53:58,088 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:53:58,089 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:53:58,092 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:55:08,889 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:55:08,899 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:55:08,907 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:55:08,909 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:55:08,910 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:55:23,938 [18] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 17:56:08,892 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 17:56:08,908 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 17:56:08,918 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 17:56:08,921 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 17:56:08,923 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 17:56:41,696 [12] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:04:54,290 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:04:54,304 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:04:54,312 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:04:54,314 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:04:54,316 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:05:06,346 [19] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:05:49,270 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:05:49,282 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:05:49,289 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:05:49,291 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:05:49,292 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:09:53,833 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:09:53,844 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:09:53,851 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:09:53,852 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:09:53,855 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:10:06,924 [14] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:16:34,232 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:16:34,243 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:16:34,250 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:16:34,252 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:16:34,254 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:16:46,134 [13] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:17:35,408 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:17:35,424 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:17:35,436 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:17:35,438 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:17:35,440 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:18:10,107 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:18:10,154 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:18:10,183 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:18:10,191 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:18:10,200 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:18:30,435 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:18:30,446 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:18:30,453 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:18:30,455 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:18:30,457 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:19:29,626 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:19:29,640 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:19:29,647 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:19:29,649 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:19:29,651 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:19:41,165 [19] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToRouteResultExecutor.ExecuteAsync(ActionContext context, RedirectToRouteResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectToRouteResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 18:20:14,778 [29] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToRouteResultExecutor.ExecuteAsync(ActionContext context, RedirectToRouteResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectToRouteResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 18:22:03,478 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:22:03,494 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:22:03,502 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:22:03,514 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:22:03,517 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:22:16,453 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:22:16,467 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:22:16,474 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:22:16,476 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:22:16,478 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:22:29,367 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToActionResultExecutor.ExecuteAsync(ActionContext context, RedirectToActionResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectToActionResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 18:28:14,039 [1] WARN  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {3b114bf0-d0db-4e8f-b466-c17af941b802} may be persisted to storage in unencrypted form.
+2024-01-03 18:28:14,354 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:28:14,356 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:28:14,364 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:28:14,366 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:28:14,368 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:28:17,484 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToActionResultExecutor.ExecuteAsync(ActionContext context, RedirectToActionResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectToActionResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 18:28:41,747 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:28:41,760 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:28:41,768 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:28:41,771 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:28:41,773 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:28:44,480 [19] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:29:26,765 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:29:26,778 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:29:26,787 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:29:26,790 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:29:26,796 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:29:44,508 [20] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:29:53,172 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:29:53,188 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:29:53,197 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:29:53,199 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:29:53,202 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:30:16,390 [12] INFO  YC.Demo1.Controllers.LoginController - Login Success.127.0.0.1
+2024-01-03 18:30:42,863 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:30:42,878 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:30:42,886 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:30:42,888 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:30:42,890 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:30:59,490 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:30:59,504 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:30:59,513 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:30:59,515 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:30:59,519 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:33:29,272 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:33:29,284 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:33:29,293 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:33:29,295 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:33:29,297 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:33:44,408 [11] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:37:40,072 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:37:40,087 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:37:40,095 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:37:40,097 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:37:40,100 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:37:53,172 [22] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:44:29,312 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:44:29,324 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:44:29,331 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:44:29,333 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:44:29,335 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:44:33,775 [23] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:44:33,885 [23] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: SignInAsync when principal.Identity.IsAuthenticated is false is not allowed when AuthenticationOptions.RequireAuthenticatedSignIn is true.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.SignInAsync(HttpContext context, String scheme, ClaimsPrincipal principal, AuthenticationProperties properties)
+   at YC.Demo1.Controllers.LoginController.Post(Login login) in C:\DEV\YC.Demo\YC.Demo1\Controllers\LoginController.cs:line 69
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 18:44:47,070 [23] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:44:47,101 [23] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: SignInAsync when principal.Identity.IsAuthenticated is false is not allowed when AuthenticationOptions.RequireAuthenticatedSignIn is true.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.SignInAsync(HttpContext context, String scheme, ClaimsPrincipal principal, AuthenticationProperties properties)
+   at YC.Demo1.Controllers.LoginController.Post(Login login) in C:\DEV\YC.Demo\YC.Demo1\Controllers\LoginController.cs:line 69
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 18:45:16,237 [32] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:45:27,784 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:45:27,797 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:45:27,809 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:45:27,811 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:45:27,813 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:45:49,014 [17] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:45:49,221 [17] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: SignInAsync when principal.Identity.IsAuthenticated is false is not allowed when AuthenticationOptions.RequireAuthenticatedSignIn is true.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.SignInAsync(HttpContext context, String scheme, ClaimsPrincipal principal, AuthenticationProperties properties)
+   at YC.Demo1.Controllers.LoginController.Post(Login login) in C:\DEV\YC.Demo\YC.Demo1\Controllers\LoginController.cs:line 69
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 18:46:10,189 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:46:10,203 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:46:10,213 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:46:10,215 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:46:10,216 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:46:18,170 [21] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:46:26,560 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:46:26,575 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:46:26,581 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:46:26,583 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:46:26,585 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:47:11,029 [13] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:47:18,234 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:47:18,249 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:47:18,258 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:47:18,261 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:47:18,263 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:47:24,237 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:47:24,251 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:47:24,259 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:47:24,261 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:47:24,264 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:47:43,811 [23] INFO  YC.Demo1.Controllers.LoginController - Login Success.127.0.0.1
+2024-01-03 18:51:50,859 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:51:50,872 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:51:50,880 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:51:50,882 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:51:50,885 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:52:01,537 [14] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:52:16,172 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:52:16,187 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:52:16,195 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:52:16,197 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:52:16,199 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:52:20,811 [22] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:54:23,609 [32] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:55:23,503 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:55:23,511 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:55:23,514 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:55:23,514 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:55:23,515 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:55:28,661 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:55:28,673 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:55:28,681 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:55:28,683 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:55:28,685 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:55:31,125 [22] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:55:42,842 [12] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 18:58:07,486 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 18:58:07,500 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 18:58:07,509 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 18:58:07,511 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 18:58:07,514 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 18:58:15,335 [24] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:01:11,228 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:01:11,250 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:01:11,278 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:01:11,289 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:01:11,297 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:01:19,460 [23] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:01:50,361 [23] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:04:45,812 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:04:45,825 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:04:45,834 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:04:45,836 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:04:45,839 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:04:56,432 [12] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:05:57,555 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:05:57,567 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:05:57,574 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:05:57,576 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:05:57,578 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:06:10,161 [13] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:10:04,260 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:10:04,291 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:10:04,302 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:10:04,304 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:10:04,308 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:10:20,373 [18] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:16:32,865 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:16:32,877 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:16:32,885 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:16:32,887 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:16:32,889 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:16:44,039 [8] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:17:50,604 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:17:50,615 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:17:50,624 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:17:50,627 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:17:50,628 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:18:05,130 [17] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:18:48,448 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:18:48,461 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:18:48,472 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:18:48,474 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:18:48,476 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:19:39,268 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:19:39,282 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:19:39,292 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:19:39,294 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:19:39,296 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:21:47,803 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:21:47,819 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:21:47,827 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:21:47,829 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:21:47,834 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:21:59,248 [18] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:21:59,575 [17] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToActionResultExecutor.ExecuteAsync(ActionContext context, RedirectToActionResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectToActionResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 19:24:02,514 [21] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToActionResultExecutor.ExecuteAsync(ActionContext context, RedirectToActionResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectToActionResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 19:24:13,011 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:24:13,024 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:24:13,031 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:24:13,033 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:24:13,035 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:24:21,107 [18] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:24:21,434 [12] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToActionResultExecutor.ExecuteAsync(ActionContext context, RedirectToActionResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectToActionResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 19:25:38,557 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:25:38,573 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:25:38,582 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:25:38,585 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:25:38,587 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:25:46,824 [23] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:25:47,146 [21] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToRouteResultExecutor.ExecuteAsync(ActionContext context, RedirectToRouteResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectToRouteResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 19:26:59,444 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:26:59,459 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:26:59,467 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:26:59,473 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:26:59,475 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:27:00,904 [13] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToActionResultExecutor.ExecuteAsync(ActionContext context, RedirectToActionResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectToActionResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 19:27:05,061 [16] INFO  YC.Demo1.Controllers.LoginController - Login Success.127.0.0.1
+2024-01-03 19:27:05,289 [23] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToActionResultExecutor.ExecuteAsync(ActionContext context, RedirectToActionResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectToActionResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 19:27:41,359 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:27:41,372 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:27:41,380 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:27:41,383 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:27:41,385 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:31:21,495 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:31:21,510 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:31:21,522 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:31:21,524 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:31:21,527 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:31:50,059 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:31:50,080 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:31:50,095 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:31:50,100 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:31:50,104 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:31:52,843 [18] INFO  YC.Demo1.Controllers.LoginController - Login Success.127.0.0.1
+2024-01-03 19:32:34,478 [31] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:41:49,171 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:41:49,186 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:41:49,196 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:41:49,199 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:41:49,200 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:42:29,368 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:42:29,383 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:42:29,391 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:42:29,393 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:42:29,395 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:42:48,470 [18] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:42:48,990 [18] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: SignInAsync when principal.Identity.IsAuthenticated is false is not allowed when AuthenticationOptions.RequireAuthenticatedSignIn is true.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.SignInAsync(HttpContext context, String scheme, ClaimsPrincipal principal, AuthenticationProperties properties)
+   at YC.Demo1.Controllers.LoginController.Post(Login login) in C:\DEV\YC.Demo\YC.Demo1\Controllers\LoginController.cs:line 64
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 19:43:25,679 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:43:25,696 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:43:25,704 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:43:25,707 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:43:25,710 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:44:05,536 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:44:05,553 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:44:05,563 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:44:05,566 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:44:05,568 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:44:10,940 [21] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:52:39,006 [20] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:53:55,858 [19] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:54:09,278 [26] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'A_USERS' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 19:55:50,667 [8] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:55:50,775 [21] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: SignInAsync when principal.Identity.IsAuthenticated is false is not allowed when AuthenticationOptions.RequireAuthenticatedSignIn is true.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.SignInAsync(HttpContext context, String scheme, ClaimsPrincipal principal, AuthenticationProperties properties)
+   at YC.Demo1.Controllers.PageLogin.WebApp(LoginWebApp data)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 19:58:03,957 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:58:03,966 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:58:03,969 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:58:03,969 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:58:03,970 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 19:58:10,347 [14] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 19:59:33,102 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 19:59:33,122 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 19:59:33,133 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 19:59:33,136 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 19:59:33,138 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 20:00:06,307 [19] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 20:19:48,288 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 20:19:48,303 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 20:19:48,314 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 20:19:48,317 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 20:19:48,320 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 22:43:28,772 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 22:43:28,791 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 22:43:28,804 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 22:43:28,810 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 22:43:28,812 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 22:43:47,740 [22] INFO  YC.Demo1.Controllers.LoginController - Login Success.::1
+2024-01-03 22:53:58,215 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 22:53:58,229 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 22:53:58,237 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 22:53:58,240 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 22:53:58,242 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 23:13:09,101 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 23:13:09,116 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 23:13:09,131 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 23:13:09,151 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 23:13:09,183 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 23:51:34,003 [77] INFO  YC.Demo1.Controllers.LoginController - Login Success.127.0.0.1
