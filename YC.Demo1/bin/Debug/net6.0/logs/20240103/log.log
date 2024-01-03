@@ -1,0 +1,91 @@
+2024-01-03 10:34:23,527 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 10:34:23,539 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 10:34:23,546 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 10:34:23,553 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 10:34:23,555 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 10:35:50,730 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 10:35:50,740 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 10:35:50,747 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 10:35:50,750 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 10:35:50,753 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 10:36:12,160 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 10:36:12,171 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 10:36:12,178 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 10:36:12,179 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 10:36:12,181 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 10:36:25,475 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 10:36:25,480 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 10:36:25,483 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 10:36:25,483 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 10:36:25,484 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 10:36:29,623 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 10:36:29,635 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 10:36:29,641 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 10:36:29,644 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 10:36:29,646 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 10:40:47,492 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 10:40:47,503 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 10:40:47,510 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 10:40:47,512 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 10:40:47,515 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 10:41:34,516 [22] INFO  YC.Demo1.Controllers.WeatherForecastController - YC.Demo1.Controllers.LoginController,info,接口访问
+2024-01-03 10:41:34,534 [22] ERROR YC.Demo1.Controllers.WeatherForecastController - YC.Demo1.Controllers.LoginController,error,接口访问错误
+2024-01-03 10:41:46,388 [23] INFO  YC.Demo1.Controllers.WeatherForecastController - YC.Demo1.Controllers.LoginController,info,接口访问
+2024-01-03 10:41:46,390 [23] INFO  YC.Demo1.Controllers.WeatherForecastController - YC.Demo1.Controllers.LoginController,info,接口成功
+2024-01-03 11:10:51,436 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 11:10:51,447 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 11:10:51,455 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 11:10:51,458 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 11:10:51,460 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 11:14:05,246 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 11:14:05,256 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 11:14:05,262 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 11:14:05,264 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 11:14:05,266 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 11:15:25,892 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 11:15:25,903 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 11:15:25,910 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 11:15:25,912 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 11:15:25,914 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 11:18:04,752 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 11:18:04,766 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 11:18:04,773 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 11:18:04,774 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 11:18:04,776 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 11:23:24,850 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 11:23:24,861 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 11:23:24,868 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 11:23:24,870 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 11:23:24,872 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 11:23:41,490 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 11:23:41,501 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 11:23:41,506 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 11:23:41,508 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 11:23:41,509 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 11:24:19,349 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 11:24:19,359 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 11:24:19,366 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 11:24:19,367 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 11:24:19,369 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 11:27:05,065 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 11:27:05,083 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 11:27:05,091 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 11:27:05,093 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 11:27:05,095 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 11:27:11,292 [13] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'A_USERS' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-01-03 11:27:35,081 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 11:27:35,086 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 11:27:35,088 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 11:27:35,088 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 11:27:35,088 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\
+2024-01-03 11:27:46,578 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7056
+2024-01-03 11:27:46,589 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5056
+2024-01-03 11:27:46,596 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2024-01-03 11:27:46,599 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2024-01-03 11:27:46,601 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\DEV\YC.Demo\YC.Demo1\

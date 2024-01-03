@@ -1,4 +1,4 @@
-namespace YC.Demo1
+namespace YC.Demo1.Models
 {
     public class WeatherForecast
     {
