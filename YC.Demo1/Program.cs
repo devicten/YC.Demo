@@ -11,6 +11,8 @@ using YC.Demo1.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//string a = Security.Instance.Encrypt("Data Source=192.168.56.1,1431; Initial Catalog=pubs;user id=sa2;password=123456;", "UElicApHOmPeaDENIadesTESMOHamPrA");
+
 builder.Logging.AddLog4Net("Configs/log4net.Config");
 builder.Services.AddControllersWithViews();
 
